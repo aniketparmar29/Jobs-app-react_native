@@ -13,7 +13,7 @@ const Popularjobs = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Popularjobs</Text>
+        <Text style={styles.headerTitle}>Popular jobs</Text>
         <TouchableOpacity onPress={() => navigation.navigate('AllJobs')}>
           <Text style={styles.header}>Show all</Text>
         </TouchableOpacity>
@@ -26,7 +26,7 @@ const Popularjobs = () => {
           <Text>Something went wrong</Text>
         ) : (
           <FlatList
-          data={[1,2,3,4,5,6,7,8]}
+          data={data}
           renderItem={({item,index})=>(
             <PopularJobCard key={index} item={item}/>
           )}
