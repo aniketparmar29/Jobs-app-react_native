@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     fontSize: SIZES.large,
     color: COLORS.primary,
     fontFamily: FONT.bold,
-    textAlign: "center",
+    textAlign: "right",
   },
   companyInfoBox: {
     marginTop: SIZES.small / 2,
